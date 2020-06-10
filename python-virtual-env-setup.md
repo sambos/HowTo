@@ -3,6 +3,11 @@
 
 ### using pipenv
 
+It automatically creates and manages a virtualenv for your projects, as well as adds/removes packages from your
+Pipfile as you install/uninstall packages. It also generates the ever-important Pipfile.lock, which is used to
+produce deterministic builds.
+
+* [Pipenv Book](https://buildmedia.readthedocs.org/media/pdf/pipenv/latest/pipenv.pdf)
 
 installs new environment, looks for Pipfile if exists for reuse, creates a pipfile is does not exist
 ```sh
